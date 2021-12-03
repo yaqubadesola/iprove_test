@@ -68,8 +68,8 @@ function ApiSide(props) {
                         <li><Link to="/api/user-verify/phone" className={params.phone === "phone" && "active"}><span className="serviceText">Verify NIN By Phone No</span><i className="fa fa-angle-right"></i></Link></li>
                         <li><Link to="/api/userverify/fingerprint" className={params.fingerprint === "fingerprint" && "active"}><span className="serviceText">Verify  NIN by Fingerprint</span><i className="fa fa-angle-right"></i></Link></li>
                         <br />
-                        <h6>IDENTITY VERIFICATIONS</h6>
-                        <li><Link to="/api/bvn"><span className="serviceText">Bank Verification Numbers (BVN)</span><i className="fa fa-angle-right"></i></Link></li>
+                        <h6>BUSINESS VERIFICATIONS</h6>
+                        <li><Link to="/api/business/verify/submit" className={params.submit === "submit" && "active"}><span className="serviceText">Submit Business Verification</span><i className="fa fa-angle-right"></i></Link></li>
                         <li><Link to="/api/cac"><span className="serviceText">Corporate Affairs Commission</span><i className="fa fa-angle-right"></i></Link></li>
                         <li><Link to="/api/driver-licence"><span className="serviceText">Driver License</span><i className="fa fa-angle-right"></i></Link></li>
                         <li><Link to="/api/identity-biometrics"><span className="serviceText">Identity Biometrics</span><i className="fa fa-angle-right"></i></Link></li>
